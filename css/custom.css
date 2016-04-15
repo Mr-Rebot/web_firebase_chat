@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+
+/** Overwrite CSS of bootstrap **/
+
+tr {
+width: 100%;
+display: inline-table;
+}
+
+table{
+ height:300px; 
+}
+tbody{
+  height: 300px;
+  overflow-y: scroll;
+}
+.table-striped tbody, .table-striped tr, .table-striped td, .table-striped th {
+  display: block;
+}
+.table-striped tbody td, .table-striped thead > tr> th {
+  border-bottom-width: 0;
+}
